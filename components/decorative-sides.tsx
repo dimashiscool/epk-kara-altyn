@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import Image from "next/image"
 
 function getImages(folder: string) {
   const directory = path.join(process.cwd(), "public", "images", folder);
@@ -40,15 +41,17 @@ export function DecorativeSides() {
         "
       >
         {leftImages.map((src, i) => (
-          <img
-            key={src}
-            src={src}
-            alt=""
-            className={`
-              w-full
-              object-contain
-            `}
-          />
+          <div key={src} className="relative">
+            <Image
+              src={src}
+              alt=""
+              height={1000}
+              width={1000}
+              className={`
+                object-contain
+              `}
+    />
+  </div>
         ))}
       </aside>
 
@@ -71,15 +74,17 @@ export function DecorativeSides() {
         "
       >
         {rightImages.map((src, i) => (
-          <img
-            key={src}
-            src={src}
-            alt=""
-            className={`
-              w-full
-              object-contain
-            `}
-          />
+          <div key={src} className="relative">
+            <Image
+              src={src}
+              alt=""
+              height={1000}
+              width={1000}
+              className={`
+                object-contain
+              `}
+    />
+  </div>
         ))}
       </aside>
     </>

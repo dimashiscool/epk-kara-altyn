@@ -17,11 +17,10 @@ export function CastSection({ cast }: CastSectionProps) {
       <SectionTitle
         eyebrow="Актерлер"
         title="Актерлік құрам"
-        description="Фильмнің негізгі кейіпкерлерін сомдайтын актерлер туралы анықтамалық."
       />
       <div
         className={`relative mt-4 overflow-hidden transition-all duration-300 ${
-          expanded ? "max-h-[3000px]" : "max-h-125"
+          expanded ? "max-h-[3000px]" : "max-h-100"
         }`} >
         <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
         {cast.map((person) => (
@@ -60,7 +59,6 @@ export function CrewSection({ crew }: CrewSectionProps) {
       <SectionTitle
         eyebrow="Топ"
         title="Түсірілім тобы"
-        description="Шығармашылық және техникалық топ мүшелерінің кәсіби профилі."
       />
       <div className="grid gap-4 md:grid-cols-2">
         {crew.map((person) => (

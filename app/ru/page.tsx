@@ -10,6 +10,7 @@ import {
 } from "@/lib/content";
 import { discoverUnlinkedImages } from "@/lib/discover-images";
 import { DecorativeSides } from "@/components/decorative-sides";
+import { Trailer } from "@/components/trailer";
 
 export default function HomePage() {
   const autoImages = discoverUnlinkedImages();
@@ -37,7 +38,8 @@ export default function HomePage() {
               ))}
             </div>
           </section>
-
+          
+          <Trailer kz={false} />
           <About kz={false}/>
           <CastSection cast={rucastContent} />
           <CrewSection crew={rucrewContent} />

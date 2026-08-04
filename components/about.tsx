@@ -10,7 +10,7 @@ export function About( {kz}: {kz: boolean} ) {
   const [expanded, setExpanded] = useState(false);
   
   return (
-    <section id="press" className="rounded-2xl border border-stone-200 bg-white p-6 shadow-sm md:p-8">
+    <section id="about" className="rounded-2xl border border-stone-200 bg-white p-6 shadow-sm md:p-8">
       <SectionTitle title="Фильм туралы" />
       <div
         className={`relative mt-4 overflow-hidden transition-all duration-300 ${
