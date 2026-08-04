@@ -25,7 +25,7 @@
   "name": "Чингиз Капин",
   "role": "Темірхан",
   "image": "/images/cast/temirkhan.jpg",
-  "previousWork": ["Перекресток"]
+  "previousWork": ["Перекресток", "Сасық", "Aгент & Irbis", "Сны космонавта"]
   },
   {
   "id": "ularbek",
@@ -47,7 +47,7 @@
   "name": "Гүлбахрам Байбосынова",
   "role": "Қасымның әйелі",
   "image": "/images/cast/qasym-wife.jpg",
-  "previousWork": []
+  "previousWork": ["Нурикамал", "Қара шаңырақ", "Тандау"]
 },
 {
   "id": "qymbat",

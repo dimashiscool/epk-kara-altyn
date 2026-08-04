@@ -55,7 +55,7 @@ export function CrewSection({ crew }: CrewSectionProps) {
   return (
     <section id="crew" className="rounded-2xl border border-stone-200 bg-white p-6 shadow-sm md:p-8">
       <SectionTitle
-        eyebrow="Продукция"
+        eyebrow="Группа"
         title="Съемочная группа"
       />
       <div className="grid gap-4 md:grid-cols-2">

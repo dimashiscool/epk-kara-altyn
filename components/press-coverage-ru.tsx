@@ -25,6 +25,7 @@ export function PressCoverage({ items }: PressCoverageProps) {
             <p className="mt-2 text-sm leading-6 text-stone-600">{item.summary}</p>
             <a
               href={item.url}
+              target="_blank"
               className="mt-4 inline-flex rounded-md bg-amber-500 px-3 py-2 text-sm font-semibold text-stone-950 hover:bg-amber-400"
             >
               Читать

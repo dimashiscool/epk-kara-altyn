@@ -22,7 +22,7 @@ export function CastSection({ cast }: CastSectionProps) {
         className={`relative mt-4 overflow-hidden transition-all duration-300 ${
           expanded ? "max-h-[3000px]" : "max-h-100"
         }`} >
-        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+        <div className="grid gap-4 grid-cols-2 md:grid-cols-2 xl:grid-cols-4">
         {cast.map((person) => (
           <article key={person.id} className="rounded-xl border border-stone-200 bg-stone-50 p-4">
             <div className="relative mb-3 aspect-square overflow-hidden rounded-lg border border-stone-200 bg-white">
@@ -41,7 +41,7 @@ export function CastSection({ cast }: CastSectionProps) {
 
       <button
         onClick={() => setExpanded(!expanded)}
-        className="mt-4 font-medium text-amber-700 hover:text-amber-900"
+        className="relative z-50 mt-4 font-medium text-amber-700 hover:text-amber-900"
       >
         {expanded ? "Жабу" : "Бәрін көру"}
       </button>

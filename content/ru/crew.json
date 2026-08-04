@@ -2,28 +2,28 @@
   {
     "id": "murat",
     "name": "Мұрат Есжан",
-    "position": "Қоюшы режиссер, сценарист",
+    "position": "Режиссер-постановщик, сценарист",
     "image": "/images/crew/murat.png",
     "filmography": ["I’m going to Paris", "Міржақып. Оян Қазақ!", "Ахмет. Ұлт ұстазы", "Абай жолы"]
   },
   {
     "id": "aisaule",
     "name": "Айсәуле Әбілда",
-    "position": "Продюсер",
+    "position": "Главный продюсер",
     "image": "/images/crew/aisaule.jpg",
     "filmography": ["I’m going to Paris", "Міржақып. Оян Қазақ!", "Ахмет. Ұлт ұстазы", "Абай жолы"]
   },
   {
     "id": "batya",
     "name": "Асылхан Мелдебеков",
-    "position": "Қоюшы оператор",
+    "position": "Оператор-постановщик",
     "image": "/images/crew/batya.jpg",
     "filmography": ["Зере", "Бизнес по-казахский в Корее", "Капитан Байтасов", "Хотя бы в кино 1"]
   },
   {
     "id": "leva",
     "name": "Еламан Айнабеков",
-    "position": "Қоюшы суретші",
+    "position": "Художник-постановщик",
     "image": "/images/crew/leva.jpg",
     "filmography": ["Міржақып. Оян Қазақ!", "Ахмет. Ұлт ұстазы"]
   },
@@ -37,7 +37,7 @@
   {
     "id": "nurgul",
     "name": "Нұргүл Қуанышбайқызы",
-    "position": "Кастинг директор",
+    "position": "Директор кастинга",
     "image": "/images/placeholder-profile.svg",
     "filmography": ["Міржақып. Оян Қазақ!"]
   }

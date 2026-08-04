@@ -38,8 +38,8 @@ export const navigationItems = [
 export const runavigationItems = [
   { id: "set-photos", label: "Фотографии со съем. площадки", href: "/ru/set-photos" },
   { id: "film-stills", label: "Кадры из фильма", href: "/ru/film-stills" },
-  { id: "cast", label: "Актерский состав", href: "/#cast" },
-  { id: "crew", label: "Съемочная группа ", href: "/#crew" },
-  { id: "press", label: "СМИ о нас", href: "/#press" },
+  { id: "cast", label: "Актерский состав", href: "/ru#cast" },
+  { id: "crew", label: "Съемочная группа ", href: "/ru#crew" },
+  { id: "press", label: "СМИ о нас", href: "/ru#press" },
   { id: "lang", label: "ҚАЗ/РУС", href: "/kz" },
 ];
