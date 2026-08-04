@@ -1,0 +1,44 @@
+[
+  {
+    "id": "murat",
+    "name": "Мұрат Есжан",
+    "position": "Қоюшы режиссер, сценарист",
+    "image": "/images/crew/murat.png",
+    "filmography": ["I’m going to Paris", "Міржақып. Оян Қазақ!", "Ахмет. Ұлт ұстазы", "Абай жолы"]
+  },
+  {
+    "id": "aisaule",
+    "name": "Айсәуле Әбілда",
+    "position": "Продюсер",
+    "image": "/images/crew/aisaule.jpg",
+    "filmography": ["I’m going to Paris", "Міржақып. Оян Қазақ!", "Ахмет. Ұлт ұстазы", "Абай жолы"]
+  },
+  {
+    "id": "batya",
+    "name": "Асылхан Мелдебеков",
+    "position": "Қоюшы оператор",
+    "image": "/images/crew/batya.jpg",
+    "filmography": ["Зере", "Бизнес по-казахский в Корее", "Капитан Байтасов", "Хотя бы в кино 1"]
+  },
+  {
+    "id": "leva",
+    "name": "Еламан Айнабеков",
+    "position": "Қоюшы суретші",
+    "image": "/images/crew/leva.jpg",
+    "filmography": ["Міржақып. Оян Қазақ!", "Ахмет. Ұлт ұстазы"]
+  },
+  {
+    "id": "aman",
+    "name": "Райымбек Аман",
+    "position": "Монтаж, музыка",
+    "image": "/images/placeholder-profile.svg",
+    "filmography": ["Міржақып. Оян Қазақ!"]
+  },
+  {
+    "id": "nurgul",
+    "name": "Нұргүл Қуанышбайқызы",
+    "position": "Кастинг директор",
+    "image": "/images/placeholder-profile.svg",
+    "filmography": ["Міржақып. Оян Қазақ!"]
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "qasym",
+    "name": "Қуандық Қыстықбаев",
+    "role": "Қасым",
+    "image": "/images/cast/qasym.jpg",
+    "previousWork": ["Сардар", "Келін", "Өзен"]
+  },
+  {
+    "id": "beka",
+    "name": "Әділ Ахметов",
+    "role": "Бекзат",
+    "image": "/images/cast/beka.jpg",
+    "previousWork": ["Анаға апарар жол", "Алдар: Махаббат туралы аңыз"]
+  },
+  {
+    "id": "qumar",
+    "name": "Марат Амираев",
+    "role": "Құмар",
+    "image": "/images/cast/qumar.jpg",
+    "previousWork": ["5:32", "Зеро"]
+  },
+  {
+  "id": "temirkhan",
+  "name": "Чингиз Капин",
+  "role": "Темірхан",
+  "image": "/images/cast/temirkhan.jpg",
+  "previousWork": ["Перекресток"]
+  },
+  {
+  "id": "ularbek",
+  "name": "Жақсылық Тоқтаухан",
+  "role": "Ұларбек",
+  "image": "/images/cast/ularbek.jpeg",
+  "previousWork": ["Дебюттік жұмыс"]
+  },
+  {
+  "id": "zheksenbin",
+  "name": "Бақытжан Әлпейісов",
+  "role": "Жексенбин",
+  "image": "/images/cast/zheksenbin.jpg",
+  "previousWork": ["Перекресток", "Саранча", "Әкем екеуміз", "Міржақып. Оян, қазақ!", "Сасық"
+  ]
+},
+{
+  "id": "qasym-wife",
+  "name": "Гүлбахрам Байбосынова",
+  "role": "Қасымның әйелі",
+  "image": "/images/cast/qasym-wife.jpg",
+  "previousWork": []
+},
+{
+  "id": "qymbat",
+  "name": "Інжу Әбеу",
+  "role": "Қымбат",
+  "image": "/images/cast/qymbat.jpg",
+  "previousWork": []
+}
+]

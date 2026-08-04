@@ -1,0 +1,58 @@
+[
+  {
+    "id": "download-1",
+    "title": "Пресс-релиз",
+    "fileType": "PDF",
+    "fileSize": "1.2 MB",
+    "description": "Фильм туралы ресми қысқаша ақпарат пен баспасөзге арналған дәйексөздер.",
+    "url": "/documents/press-release.pdf"
+  },
+  {
+    "id": "download-2",
+    "title": "Өндірістік жазбалар",
+    "fileType": "PDF",
+    "fileSize": "2.8 MB",
+    "description": "Өндіріс кезеңдері, шығармашылық шешімдер және түсірілім үдерісі.",
+    "url": "/documents/production-notes.pdf"
+  },
+  {
+    "id": "download-3",
+    "title": "Актерлер мен топ туралы құжат",
+    "fileType": "PDF",
+    "fileSize": "1.9 MB",
+    "description": "Негізгі актерлер мен түсірілім тобының кәсіби анықтамалығы.",
+    "url": "/documents/cast-crew.pdf"
+  },
+  {
+    "id": "download-4",
+    "title": "Жоғары сапалы фотосуреттер",
+    "fileType": "ZIP",
+    "fileSize": "420 MB",
+    "description": "Фильм кадрлары мен түсірілім барысындағы суреттердің жинағы.",
+    "url": "/documents/high-res-stills.zip"
+  },
+  {
+    "id": "download-5",
+    "title": "Постерлер",
+    "fileType": "ZIP",
+    "fileSize": "96 MB",
+    "description": "Ресми және альтернативті постерлер пакеті.",
+    "url": "/documents/posters.zip"
+  },
+  {
+    "id": "download-6",
+    "title": "Логотиптер",
+    "fileType": "ZIP",
+    "fileSize": "34 MB",
+    "description": "Фильм логотиптері (SVG, PNG, монохром және түсті нұсқалар).",
+    "url": "/documents/logos.zip"
+  },
+  {
+    "id": "download-7",
+    "title": "PDF материалдар жинағы",
+    "fileType": "ZIP",
+    "fileSize": "8.5 MB",
+    "description": "Барлық мәтіндік пресс-материалдардың біріктірілген пакеті.",
+    "url": "/documents/press-pdf-kit.zip"
+  }
+]
