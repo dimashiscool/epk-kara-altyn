@@ -44,7 +44,7 @@ export default function HomePage() {
 
                 <Link
                   key={action.id}
-                  href="https://tiktok.com/qaraaltyn.film"
+                  href="https://tiktok.com/@qaraaltyn.film"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded-xl bg-white-500 px-0 py-0 text-sm font-semibold text-stone-950 hover:bg-gray-200 h-11 w-11">
