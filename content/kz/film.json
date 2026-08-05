@@ -23,6 +23,8 @@
   "heroActions": [
     { "id": "set-photos", "label": "Түсірілім алаңынан суреттер", "href": "/kz/set-photos" },
     { "id": "film-stills", "label": "Фильм кадрлары", "href": "/kz/film-stills" },
-    { "id": "about", "label": "Фильм туралы", "href": "/#about" }
+    { "id": "about", "label": "Фильм туралы", "href": "/#about" },
+    { "id": "ig", "label": "Instagram", "href": "instagram.com"},
+    { "id": "tiktok", "label": "Tiktok", "href": "tiktok.com"}
   ]
 }

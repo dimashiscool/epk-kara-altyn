@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import type { MediaItem } from "@/lib/types";
 import { SectionTitle } from "@/components/section-title";
 
@@ -11,6 +11,7 @@ type PhotoGalleryProps = {
   title: string;
   description: string;
   items: MediaItem[];
+  folder?: string;
   autoImages?: string[];
 };
 
@@ -20,22 +21,65 @@ export function PhotoGallery({
   title,
   description,
   items,
+  folder,
   autoImages = [],
 }: PhotoGalleryProps) {
   const [selectedSrc, setSelectedSrc] = useState<string | null>(null);
   const [selectedLabel, setSelectedLabel] = useState("");
+  const [blobItems, setBlobItems] = useState<MediaItem[]>([]);
+  const [loading, setLoading] = useState(true);
 
   const openPreview = (src: string, label: string) => {
     setSelectedSrc(src);
     setSelectedLabel(label);
   };
+  useEffect(() => {
+  if (!folder) return;
 
+  async function loadImages() {
+    try {
+      const response = await fetch(
+        `/api/images?folder=${folder}`,
+        {
+          cache: "no-store",
+        }
+      );
+
+      const blobs = await response.json();
+
+      const formatted = blobs.map(
+        (blob: { url: string; pathname: string }, index: number) => ({
+          id: blob.pathname,
+          category: folder,
+          title: `Сурет ${index + 1}`,
+          description: "",
+          preview: blob.url,
+          downloadUrl: blob.url + "?download=1",
+        })
+      );
+
+      setBlobItems(formatted);
+
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  loadImages();
+
+}, [folder]);
+  const allItems = [
+  ...(items ?? []),
+  ...blobItems,
+];
+  console.log("ALL:", allItems);
+  console.log("items:", items);
   return (
     <section id={id} className="rounded-2xl border border-stone-200 bg-white p-6 shadow-sm md:p-8">
       <SectionTitle eyebrow={eyebrow} title={title} description={description} />
 
       <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-        {items.map((item) => (
+        {allItems.map((item) => (
           <article key={item.id} className="rounded-xl border border-stone-200 bg-stone-50 p-4">
             <div className="relative mb-3 aspect-video overflow-hidden rounded-lg border border-stone-200 bg-white">
               <Image src={item.preview} alt={item.title} fill className="object-cover" />
@@ -49,7 +93,7 @@ export function PhotoGallery({
                 Алдын ала қарау
               </button>
               <a
-                href={item.downloadUrl}
+                href={item.downloadUrl + "?download=1"}
                 download
                 className="rounded-md bg-amber-500 px-3 py-2 text-sm font-semibold text-stone-950 hover:bg-amber-400"
               >
@@ -89,9 +133,16 @@ export function PhotoGallery({
         ))}
       </div>
 
-      {items.length === 0 && autoImages.length === 0 ? (
-        <p className="text-sm text-stone-500">Әзірге суреттер қосылмаған.</p>
-      ) : null}
+      {loading && (
+        <div className="grid gap-4 md:grid-cols-3">
+          {[1,2,3].map(i => (
+            <div
+              key={i}
+              className="aspect-video animate-pulse rounded-xl bg-stone-200"
+            />
+          ))}
+        </div>
+      )}
 
       {selectedSrc ? (
         <div

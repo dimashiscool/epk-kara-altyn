@@ -23,6 +23,8 @@
   "heroActions": [
     { "id": "set-photos", "label": "Фотографии со съем. площадки", "href": "/ru/set-photos" },
     { "id": "film-stills", "label": "Кадры из фильма", "href": "/ru/film-stills" },
-    { "id": "press", "label": "О фильме", "href": "/ru#about" }
+    { "id": "about", "label": "О фильме", "href": "/ru#about" },
+    { "id": "ig", "label": "Instagram", "href": "instagram.com"},
+    { "id": "tiktok", "label": "Tiktok", "href": "tiktok.com"}
   ]
 }

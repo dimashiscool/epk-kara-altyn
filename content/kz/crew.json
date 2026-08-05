@@ -31,14 +31,14 @@
     "id": "aman",
     "name": "Райымбек Аман",
     "position": "Монтаж, музыка",
-    "image": "/images/placeholder-profile.svg",
+    "image": "/images/crew/aman.jpg",
     "filmography": ["Белгісіз батырлар", "Жыным сол 2", "Міржақып. Оян Қазақ!"]
   },
   {
     "id": "nurgul",
     "name": "Нұргүл Қуанышбайқызы",
     "position": "Кастинг директор",
-    "image": "/images/placeholder-profile.svg",
+    "image": "/images/crew/nurgul.jpeg",
     "filmography": ["Міржақып. Оян Қазақ!", "Аяла"]
   }
 ]
