@@ -24,8 +24,9 @@ export default function HomePage() {
           <section id="home" className="rounded-2xl border border-stone-200 bg-white p-6 shadow-sm md:p-10">
             <p className="mb-3 text-sm uppercase tracking-[0.2em] text-amber-800">{rufilmContent.tagline}</p>
             <h1 className="text-4xl font-semibold tracking-tight text-stone-950 md:text-6xl">{rufilmContent.title}</h1>
-            <p className="mt-2 text-lg text-stone-600">{rufilmContent.productionCompany}</p>
+            <p className="mt-2 text-lg text-stone-600">Не предавай свою мечту!</p>
             <p className="mt-6 max-w-3xl text-base leading-7 text-stone-700">{rufilmContent.shortDescription}</p>
+            <p className="mt-6 max-w-3xl text-base leading-7 text-stone-700">Главная мотивационная бизнес-драма этой осени «Қара алтын» (черное золото) – с 10 сентября во всех кинотеатрах!</p>
             <div className="mt-6 flex flex-wrap gap-3">
               {rufilmContent.heroActions.map((action) => (
                 <a
