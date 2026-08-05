@@ -41,7 +41,7 @@ export function CastSection({ cast }: CastSectionProps) {
               onClick={() => setExpanded(!expanded)}
               className="mt-4 font-medium text-amber-700 hover:text-amber-900"
             >
-              {expanded ? "Жабу" : "Бәрін көру"}
+              {expanded ? "Закрыть" : "Смотреть все"}
             </button>
     </section>
   );

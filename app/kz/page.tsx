@@ -8,13 +8,11 @@ import {
   filmContent,
   pressContent,
 } from "@/lib/content";
-import { discoverUnlinkedImages } from "@/lib/discover-images";
 import { DecorativeSides } from "@/components/decorative-sides";
 import { Trailer } from "@/components/trailer";
 import Link from "next/link";
 
 export default function HomePage() {
-  const autoImages = discoverUnlinkedImages();
 
   return (
     <div className="relative min-h-screen text-stone-900">
@@ -32,6 +30,7 @@ export default function HomePage() {
               {filmContent.heroActions.map((action) => (
                 action.id == "ig" ?
                 <Link
+                  key={action.id}
                   href="https://instagram.com/qara.altyn_film/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -44,6 +43,7 @@ export default function HomePage() {
                 action.id == "tiktok" ?
 
                 <Link
+                  key={action.id}
                   href="https://tiktok.com/qaraaltyn.film"
                   target="_blank"
                   rel="noopener noreferrer"

@@ -9,7 +9,7 @@ export function Trailer( {kz}: {kz: boolean} ) {
       <video controls className="ßh-full w-full" >
           <source src="/videos/trailer.mp4" type="video/mp4" />
         </video>
-        <a href={"/videos/trailer.mp4"} download className="mt-6 inline-block rounded-md bg-amber-500 px-3 py-2 text-sm font-semibold text-stone-950 hover:bg-amber-400"> Жүктеу </a>
+        <a href={"/videos/trailer.mp4"} download className="mt-6 inline-block rounded-md bg-amber-500 px-3 py-2 text-sm font-semibold text-stone-950 hover:bg-amber-400">{kz ? "Жүктеу" : "Скачать" }</a>
     </section>
   );
 }

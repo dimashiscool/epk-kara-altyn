@@ -3,11 +3,9 @@ import crew from "@/content/kz/crew.json";
 import film from "@/content/kz/film.json";
 import media from "@/content/kz/media.json";
 import press from "@/content/kz/press.json";
-import rucast from "@/content/ru/cast.json";
 import rucrew from "@/content/ru/crew.json";
 import rufilm from "@/content/ru/film.json";
 import rumedia from "@/content/ru/media.json";
-import rupress from "@/content/ru/press.json";
 
 import type { CrewPerson, FilmContent, MediaItem, Person, PressItem } from "@/lib/types";
 
@@ -18,10 +16,8 @@ export const mediaContent = media as MediaItem[];
 export const pressContent = press as PressItem[];
 
 export const rufilmContent = rufilm as FilmContent;
-export const rucastContent = rucast as Person[];
 export const rucrewContent = rucrew as CrewPerson[];
 export const rumediaContent = rumedia as MediaItem[];
-export const rupressContent = rupress as PressItem[];
 
 export const setPhotos = mediaContent.filter((item) => item.category === "behindScenes");
 export const filmStills = mediaContent.filter((item) => item.category === "filmFrames");

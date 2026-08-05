@@ -3,10 +3,10 @@ import { PressCoverage } from "@/components/press-coverage-ru";
 import { SiteHeader } from "@/components/site-header-ru";
 import { About } from "@/components/about";
 import {
-  rucastContent,
+  castContent,
   rucrewContent,
   rufilmContent,
-  rupressContent,
+  pressContent,
 } from "@/lib/content";
 import { discoverUnlinkedImages } from "@/lib/discover-images";
 import { DecorativeSides } from "@/components/decorative-sides";
@@ -32,6 +32,7 @@ export default function HomePage() {
               {rufilmContent.heroActions.map((action) => (
                 action.id == "ig" ?
                 <Link
+                  key={action.id}
                   href="https://instagram.com/qara.altyn_film/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -44,6 +45,7 @@ export default function HomePage() {
                 action.id == "tiktok" ?
 
                 <Link
+                  key={action.id}
                   href="https://tiktok.com/qaraaltyn.film"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -65,9 +67,9 @@ export default function HomePage() {
           
           <Trailer kz={false} />
           <About kz={false}/>
-          <CastSection cast={rucastContent} />
+          <CastSection cast={castContent} />
           <CrewSection crew={rucrewContent} />
-          <PressCoverage items={rupressContent} />
+          <PressCoverage items={pressContent} />
         </main>
         <footer className="border-t border-stone-200 bg-white/70 py-6 text-center text-sm text-stone-500">
           © {new Date().getFullYear()} MurAi Productions. Барлық құқықтар қорғалған.

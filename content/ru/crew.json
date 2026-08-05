@@ -2,28 +2,28 @@
   {
     "id": "murat",
     "name": "Мұрат Есжан",
-    "position": "Қоюшы режиссер, сценарист",
+    "position": "Режиссер-постановщик, сценарист",
     "image": "/images/crew/murat.png",
     "filmography": ["I’m going to Paris", "Міржақып. Оян Қазақ!", "Ахмет. Ұлт ұстазы", "Абай жолы"]
   },
   {
     "id": "aisaule",
     "name": "Айсәуле Әбілда",
-    "position": "Бас продюсер",
+    "position": "Главный продюсер",
     "image": "/images/crew/aisaule.jpg",
     "filmography": ["I’m going to Paris", "Міржақып. Оян Қазақ!", "Ахмет. Ұлт ұстазы", "Абай жолы"]
   },
   {
     "id": "batya",
     "name": "Асылхан Мелдебеков",
-    "position": "Қоюшы оператор",
+    "position": "Оператор-постановщик",
     "image": "/images/crew/batya.jpg",
     "filmography": ["Зере", "Бизнес по-казахский в Корее", "Капитан Байтасов", "Хотя бы в кино 1", "Мама"]
   },
   {
     "id": "leva",
     "name": "Еламан Айнабеков",
-    "position": "Қоюшы суретші",
+    "position": "Художник-постановщик",
     "image": "/images/crew/leva.jpg",
     "filmography": ["Міржақып. Оян Қазақ!", "Ахмет. Ұлт ұстазы"]
   },
@@ -31,14 +31,14 @@
     "id": "aman",
     "name": "Райымбек Аман",
     "position": "Монтаж, музыка",
-    "image": "/images/placeholder-profile.svg",
+    "image": "/images/crew/aman.jpg",
     "filmography": ["Белгісіз батырлар", "Жыным сол 2", "Міржақып. Оян Қазақ!"]
   },
   {
     "id": "nurgul",
     "name": "Нұргүл Қуанышбайқызы",
-    "position": "Кастинг директор",
-    "image": "/images/placeholder-profile.svg",
+    "position": "Директор кастинга",
+    "image": "/images/crew/nurgul.jpeg",
     "filmography": ["Міржақып. Оян Қазақ!", "Аяла"]
   }
 ]
