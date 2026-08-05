@@ -18,7 +18,7 @@
     "name": "Асылхан Мелдебеков",
     "position": "Қоюшы оператор",
     "image": "/images/crew/batya.jpg",
-    "filmography": ["Зере", "Бизнес по-казахский в Корее", "Капитан Байтасов", "Хотя бы в кино 1"]
+    "filmography": ["Зере", "Бизнес по-казахский в Корее", "Капитан Байтасов", "Хотя бы в кино 1", "Мама"]
   },
   {
     "id": "leva",
@@ -31,14 +31,14 @@
     "id": "aman",
     "name": "Райымбек Аман",
     "position": "Монтаж, музыка",
-    "image": "/images/placeholder-profile.svg",
-    "filmography": ["Міржақып. Оян Қазақ!"]
+    "image": "/images/crew/aman.jpg",
+    "filmography": ["Белгісіз батырлар", "Жыным сол 2", "Міржақып. Оян Қазақ!"]
   },
   {
     "id": "nurgul",
     "name": "Нұргүл Қуанышбайқызы",
     "position": "Кастинг директор",
-    "image": "/images/placeholder-profile.svg",
-    "filmography": ["Міржақып. Оян Қазақ!"]
+    "image": "/images/crew/nurgul.jpeg",
+    "filmography": ["Міржақып. Оян Қазақ!", "Аяла"]
   }
 ]

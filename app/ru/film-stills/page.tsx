@@ -1,10 +1,8 @@
 import { PhotoGallery } from "@/components/photo-gallery-ru";
 import { filmStills } from "@/lib/content";
-import { discoverUnlinkedImages } from "@/lib/discover-images";
 import { SiteHeader } from "@/components/site-header-ru";
 
 export default function HomePage() {
-  const autoImages = discoverUnlinkedImages();
 
   return (
     <div className="min-h-screen text-stone-900">
@@ -17,7 +15,7 @@ export default function HomePage() {
           title="Кадры из фильма"
           description="Высококачественные кадры из фильма для использования в прессе."
           items={filmStills}
-          autoImages={autoImages.filmStills}
+          folder="film-stills"
         />
       </main>
       <footer className="border-t border-stone-200 bg-white/70 py-6 text-center text-sm text-stone-500">
