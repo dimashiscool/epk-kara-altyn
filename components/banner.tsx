@@ -1,8 +1,9 @@
 import Image from "next/image";
 
-export function Banner() {
+export function Banner( {kz}: {kz: boolean} ) {
   
   return (
-    <img src={"/banner.jpeg"} alt="ҚАРА АЛТЫН. 10 ҚЫРКҮЙЕКТЕН БАСТАП БАРЛЫҚ КИНОТЕАТРДА"/>
+    
+    <img src={kz ? "/banner.jpeg" : "/bannerru.jpg"} alt="ҚАРА АЛТЫН. 10 ҚЫРКҮЙЕКТЕН БАСТАП БАРЛЫҚ КИНОТЕАТРДА"/>
   );
 }

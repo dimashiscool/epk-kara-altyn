@@ -32,6 +32,70 @@ body {
   overflow-x: hidden;
 }
 
+@font-face {
+  font-family: "AdineuePROKZ";
+  src: url("/fonts/adineuePROKZ-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AdineuePROKZ";
+  src: url("/fonts/adineuePROKZ-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AdineuePROKZ";
+  src: url("/fonts/adineuePROKZ-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BebasNeue";
+  src: url("/fonts/BebasNeue-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BebasNeue";
+  src: url("/fonts/BebasNeue-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BebasNeue";
+  src: url("/fonts/BebasNeue-Thin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BebasNeue";
+  src: url("/fonts/BebasNeue-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BebasNeue";
+  src: url("/fonts/BebasNeue-Book.otf") format("opentype");
+  font-weight: 350;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   font-family: var(--font-noto-sans), "Noto Sans", sans-serif;
   background:
