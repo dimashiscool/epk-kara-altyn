@@ -27,7 +27,7 @@ export function DecorativeSides() {
           pointer-events-none
           absolute
           -left-10
-          top-18
+          top-150
           z-0
           gap-2
           hidden
@@ -61,7 +61,7 @@ export function DecorativeSides() {
           pointer-events-none
           absolute
           -right-10
-          top-18
+          top-150
           z-0
           hidden
           h-[calc(100vh-7rem)]

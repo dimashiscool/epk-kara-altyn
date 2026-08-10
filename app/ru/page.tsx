@@ -12,12 +12,14 @@ import { discoverUnlinkedImages } from "@/lib/discover-images";
 import { DecorativeSides } from "@/components/decorative-sides";
 import { Trailer } from "@/components/trailer";
 import Link from "next/link";
+import { Banner } from "@/components/banner";
 
 export default function HomePage() {
   const autoImages = discoverUnlinkedImages();
 
   return (
     <div className="relative min-h-screen text-stone-900">
+    <Banner />
     <DecorativeSides />
       <div className="min-h-screen text-stone-900">
         <SiteHeader />
