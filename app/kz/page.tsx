@@ -18,6 +18,7 @@ export default function HomePage() {
 
   return (
     <div className="relative min-h-screen text-stone-900">
+      <Analytics/>
     <Banner kz={true}/>
     <DecorativeSides />
       <div className="min-h-screen text-stone-900">
