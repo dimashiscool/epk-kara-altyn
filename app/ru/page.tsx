@@ -12,6 +12,11 @@ import { discoverUnlinkedImages } from "@/lib/discover-images";
 import { DecorativeSides } from "@/components/decorative-sides";
 import { Trailer } from "@/components/trailer";
 import Link from "next/link";
+<<<<<<< Updated upstream
+=======
+import { Banner } from "@/components/banner";
+import { Analytics } from "@vercel/analytics/next"
+>>>>>>> Stashed changes
 
 export default function HomePage() {
   const autoImages = discoverUnlinkedImages();
