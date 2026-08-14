@@ -25,8 +25,8 @@ export default function HomePage() {
         <SiteHeader />
         <main className="container-wrap space-y-10 py-8 md:py-10">
           <section id="home" className="rounded-2xl border border-stone-200 bg-white p-6 shadow-sm md:p-10">
-            <p className="mb-3 text-sm uppercase tracking-[0.2em] text-amber-800">{filmContent.tagline}</p>
-            <h1 className="text-4xl font-bold tracking-tight text-stone-950 md:text-6xl">{filmContent.title.toUpperCase()}</h1>
+            <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-amber-800">{filmContent.tagline}</p>
+            <h1 className="text-4xl font-[950] tracking-tight text-stone-950 md:text-6xl">{filmContent.title.toUpperCase()}</h1>
             <p className="mt-2 text-lg text-stone-600">Арманыңды сатпа!</p>
             <p className="mt-6 max-w-3xl text-base leading-7 text-stone-700">{filmContent.shortDescription}</p>
             <p className="mt-6 max-w-3xl text-base leading-7 text-stone-700">Күздің басты мотивациялық бизнес драмасы “Қара алтын” – 10 қыркүйектен бастап барлық кинотеатрларда!</p>

@@ -1,12 +1,6 @@
 import type { Metadata } from "next";
-import { Noto_Sans } from "next/font/google";
+import { gotham } from "@/styles/fonts";
 import "@/styles/globals.css";
-
-const notoSans = Noto_Sans({
-  subsets: ["cyrillic", "latin"],
-  variable: "--font-noto-sans",
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   title: "Қара Алтын | Ресми EPK",
@@ -28,7 +22,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="kk" className={notoSans.variable}>
+    <html lang="kk" className={gotham.variable}>
       <body>{children}</body>
     </html>
   );

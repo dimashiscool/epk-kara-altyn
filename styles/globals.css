@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@theme inline {
+  --font-sans: var(--font-gotham), system-ui, arial, sans-serif;
+}
+
 :root {
   color-scheme: light;
   --epk-bg: #f4f5f7;
@@ -97,7 +101,8 @@ body {
 }
 
 body {
-  font-family: var(--font-noto-sans), "Noto Sans", sans-serif;
+  font-family: var(--font-sans);
+  font-weight: 400;
   background:
     radial-gradient(ellipse 80% 50% at 50% -10%, #e8ebf0 0%, transparent 55%),
     linear-gradient(180deg, #f7f8fa 0%, #f0f1f4 100%);

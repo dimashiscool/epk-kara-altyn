@@ -10,7 +10,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-stone-200 bg-white/90 backdrop-blur">
       <div className="mx-auto flex w-full max-w-6xl flex-wrap items-center justify-between gap-4 px-4 py-4 md:px-6">
         <div>
-          <p className="text-xs uppercase tracking-[0.2em] text-stone-500">MurAi Productions</p>
+          <p className="text-xs font-medium uppercase tracking-[0.2em] text-stone-500">MurAi Productions</p>
           <a href="/ru" className="text-lg font-semibold text-stone-900">Қара Алтын</a>
         </div>
         <nav aria-label="Негізгі навигация">
